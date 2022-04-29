@@ -1,0 +1,210 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+    
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: #EC4067;
+  }
+
+  .leftsection{
+      display: flex;
+      flex-wrap: wrap;
+      /*padding-left: 50px;*/
+      margin-right: -15px;
+      margin-top: 5px;
+  }
+   .img1{
+       /*float: right;*/
+       margin-left: 450px;
+       display: block;
+       margin-top: -440px;
+       height: 800px;
+    
+   }
+
+   p{
+       display: block;
+       line-height: 1.9;
+    
+    }
+    
+    .wholetopleft{
+        padding-left:100px;
+        margin-top: 200px;
+
+    }
+
+    .rigtimg{
+        height: 420px;
+        display: block;
+        margin-top: 200px;
+        padding-left: 50px;
+    }
+     .storytime{
+        display: block;
+        padding-left:90px;
+        margin-top: -650px;        
+     }
+     .strbrgnd{
+         padding-left: 25px;
+         background-color: grey;
+        width: 55px;
+        height: 30px;
+
+     }
+    
+   .button1 {
+    background-color: white; 
+    color: #EC4067; 
+    border: 1px solid #EC4067;
+    width: 100px;
+    height:35px;
+    border-radius: 1px;
+    padding-left: 10px;
+    cursor: pointer;
+    
+  }
+
+  .button2 {
+      background-color:#EC4067;
+      color: white;
+      width: 100px;
+      height:35px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+
+  }
+  .button3 {
+    background-color:#EC4067;
+    color: white;
+    width: 120px;
+    height:40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+  .rightpic{
+      height: 420px;
+      display: block;
+      margin-top: 400px;
+      padding-left: 50px;
+  }
+  .righttext{
+      margin-left: 900px;
+      margin-top: -350px;
+  }
+  .leftsection2{
+      padding-top: 800px;
+      padding-left: 250px;
+  }
+  .rightsectiontwo{
+    display: block;
+    margin-top: -200px;
+    padding-left: 700px;
+    }
+.leftsection3{
+    padding-left: 40px;
+    padding-top: 40px;
+
+}
+
+    .righttext3{
+        margin-left: 900px;
+        margin-top: -350px;
+    }
+    .TMINFO{
+        padding-top: 200px;
+
+    }
+    .TMSPICS{
+        /*display: flex;*/
+        padding-top: 30px;
+        padding-right: 60px;
+        margin-left: 150px;
+     }
+
+     /*.tmnames{
+         display: flex;
+        
+     }*/
+
+
+     .TMPATH{
+         color: #EC4067;
+         font-size: larger;
+         display: inline-flex;
+         padding-top: 05px;
+         margin-left: 150px;
+        }
+     .TMINFOEXTRA{
+        font-size:x-small;
+        display: inline-flex;
+        word-spacing: 05px;
+        padding-bottom: 0px;
+        margin-left: 140px;
+
+     }
+     .quizbtn{
+      background-color:#EC4067;
+      color: white;
+      width: 100px;
+      height:35px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      padding-bottom: 10px;
+      margin-left: 220px;
+
+     }
+     .leftsection3{
+        padding-left: 120px;
+        padding-top: 100px;
+        }
+
+     .rightsection3{
+       display: block;
+       margin-top: -290px;
+       padding-left: 700px;
+     }
+     .surerity{
+        padding-left: 120px;
+        padding-top: 10px;
+        
+     }
+     .footer{
+         background-color: beige;
+         width: 45%;
+         height: 100px;
+         padding-right: 600px;
+         overflow: hidden;
+         
+     }
+     .designers{
+        padding-left: 400px;
+        text-align: center;
+        display: inline;
+
+     }
+     /*END OF CSS*/
