@@ -160,10 +160,14 @@ body{
         margin-top: -350px;
     }
     .tminfo{
+        font-size: x-large!important;
         padding-top: 200px;
-        padding-bottom: 10px;
-        
-        
+        padding-bottom: 9px;   
+    }
+    .forcing2{
+        font-size: smaller;
+         padding-left: 29px;
+         padding-top: 2px;
     }
     
     .mentors{
@@ -179,11 +183,11 @@ body{
         margin-left: 150px;
      }
 
-     /*.tmnames{
-         display: flex;
-        
-     }*/
-
+     .tmnames{
+         display: inline-flex;
+         padding-left: 200px;
+         margin-bottom: -100px;
+     }
 
      .TMPATH{
          color: #EC4067;
@@ -229,6 +233,16 @@ body{
        margin-top: -290px;
        padding-left: 700px;
      }
+
+     .project{
+         padding-bottom: 20px;
+     }
+
+     .forcing4{
+        font-size: smaller;
+        padding-left: 130px;
+    }
+
      .surerity{
         padding-left: 120px;
         padding-top: 10px;
