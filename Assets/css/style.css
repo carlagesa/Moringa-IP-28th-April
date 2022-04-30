@@ -3,7 +3,19 @@ body{
     font-size: medium;
     
 }
-
+/*This is the text logo at the top of the left corner*/
+.spanlogo{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;   
+    color: #EC4067;
+    font-size: xx-large;
+}
+.spanlogoblack{
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Nunito', sans-serif;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -262,4 +274,4 @@ body{
         display: inline;
 
      }
-     /*END OF CSS*/
+     /*END OF CSS THANKS FOR FOLLOWING ALLONG */
