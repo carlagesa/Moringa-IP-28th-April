@@ -57,54 +57,79 @@ body{
     .rigtimg{
         height: 420px;
         display: block;
-        margin-top: 200px;
+        margin-top: 180px;
         padding-left: 50px;
     }
+
+    .img2{
+        margin-top: -300px;
+    }
+
      .storytime{
-        display: block;
-        padding-left:90px;
-        margin-top: -650px;        
+        padding-left:50px;
+        margin-top: -400px;  
+        display: flex;      
      }
      .strbrgnd{
-         padding-left: 25px;
-         background-color: grey;
-        width: 55px;
+        padding-left: 10px;
+        background-color: rgb(236, 232, 232);
+        width: 50px;
         height: 30px;
 
+     }
+     .forcing{
+         font-size: smaller;
+         padding-left: 49px;
+         padding-top: 22px;
      }
     
    .button1 {
     background-color: white; 
     color: #EC4067; 
     border: 1px solid #EC4067;
-    width: 100px;
-    height:35px;
+    width: 110px;
+    height:32px;
     border-radius: 1px;
     padding-left: 10px;
     cursor: pointer;
     
   }
+  .button1:hover{
+    background-color: #EC4067;
+    color: white;
+  }
 
   .button2 {
       background-color:#EC4067;
       color: white;
-      width: 100px;
-      height:35px;
+      width: 110px;
+      height:32px;
       border: none;
       border-radius: 5px;
       cursor: pointer;
 
   }
+  .button2:hover{
+    background-color: white;
+    color: #EC4067;
+    border: 1px solid #EC4067;
+  }
   .button3 {
     background-color:#EC4067;
     color: white;
-    width: 120px;
-    height:40px;
+    width: 110px;
+    height:32px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-
 }
+
+.button3:hover{
+    background-color: white;
+    color: #EC4067;
+    border: 1px solid #EC4067;
+  }
+
   .rightpic{
       height: 420px;
       display: block;
@@ -116,7 +141,7 @@ body{
       margin-top: -350px;
   }
   .leftsection2{
-      padding-top: 800px;
+      padding-top: 500px;
       padding-left: 250px;
   }
   .rightsectiontwo{
@@ -124,8 +149,8 @@ body{
     margin-top: -200px;
     padding-left: 700px;
     }
-.leftsection3{
-    padding-left: 40px;
+  .leftsection3{
+    padding-left: 40px!important;
     padding-top: 40px;
 
 }
@@ -134,8 +159,17 @@ body{
         margin-left: 900px;
         margin-top: -350px;
     }
-    .TMINFO{
+    .tminfo{
         padding-top: 200px;
+        padding-bottom: 10px;
+        
+        
+    }
+    
+    .mentors{
+        padding-top: 210px;
+        padding-left: 50px;
+        display: flex;
 
     }
     .TMSPICS{
@@ -163,21 +197,28 @@ body{
         display: inline-flex;
         word-spacing: 05px;
         padding-bottom: 0px;
-        margin-left: 140px;
+        margin-left: 150px;
+        margin-right: -10px;
 
      }
      .quizbtn{
       background-color:#EC4067;
       color: white;
-      width: 100px;
-      height:35px;
+      width: 110px;
+      height:32px;
       border: none;
       border-radius: 5px;
       cursor: pointer;
-      padding-bottom: 10px;
-      margin-left: 220px;
-
+      padding-bottom: 5px;
+      margin-left: 200px;
+      margin-right: 17px;
      }
+
+     .quizbtn:hover{
+        background-color: white;
+        color: #EC4067;
+        border: 1px solid #EC4067;
+      }
      .leftsection3{
         padding-left: 120px;
         padding-top: 100px;
