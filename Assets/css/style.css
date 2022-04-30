@@ -5,16 +5,17 @@ body{
 /*This is the text logo at the top of the left corner*/
 .spanlogo{
     font-family: 'Nunito', sans-serif;
-    padding-left: 20px;
+    padding-left: 30px;
     font-weight: bold;   
     color: #EC4067;
     font-size: xx-large;
 }
 .spanlogoblack{
     color: black;
+    font-family: 'Nunito', sans-serif;
+    padding-left: 10px;
     font-weight: bold;
     font-size: xx-large;
-    font-family: 'Nunito', sans-serif;
 }
 
 /* Add a black background color to the top navigation */
@@ -185,17 +186,34 @@ body{
     padding-top: 40px;
 
 }
+.tmspan{
+   font-size: x-large;
+   display: flex;
+   
+}
+.backgrnd{
+    padding-left: 50px;
+    padding-bottom: 100px;
+    background-color: rgb(236, 232, 232);
+    width: 0px;
+    height: 30px;
+}
+.skillspan{
+    padding-left: 25px;
+    padding-top: -10px!important;
+    font-size: smaller;
+}
 
-    .righttext3{
+.righttext3{
         margin-left: 900px;
         margin-top: -350px;
-    }
-    .tminfo{
+}
+.tminfo{
         font-size: x-large!important;
         padding-top: 200px;
         padding-bottom: 9px;   
-    }
-    .forcing2{
+}
+.forcing2{
         font-size: smaller;
          padding-left: 29px;
          padding-top: 2px;
@@ -225,14 +243,15 @@ body{
          font-size: larger;
          display: inline-flex;
          padding-top: 05px;
-         margin-left: 150px;
+         margin-left: 160px;
         }
      .TMINFOEXTRA{
         font-size:x-small;
         display: inline-flex;
+        text-align: center;
         word-spacing: 05px;
         padding-bottom: 0px;
-        margin-left: 150px;
+        margin-left: 148px;
         margin-right: -10px;
 
      }
@@ -245,7 +264,7 @@ body{
       border-radius: 5px;
       cursor: pointer;
       padding-bottom: 5px;
-      margin-left: 200px;
+      margin-left: 190px;
       margin-right: 17px;
      }
 
