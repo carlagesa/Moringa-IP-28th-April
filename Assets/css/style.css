@@ -1,6 +1,7 @@
 body{
     font-family: 'Nunito', sans-serif;
     font-size: medium;
+    max-width: fit-content;
 }
 
 /* Add a black background color to the top navigation */
@@ -164,6 +165,7 @@ body{
 
 .button3:hover{
     background-color: white;
+    width: 112px;
     color: #EC4067;
     border: 1px solid #EC4067;
   }
@@ -174,6 +176,22 @@ body{
       margin-top: 400px;
       padding-left: 180px;
   }
+
+  .orientation{
+      padding-left: 215px;
+      margin-top: -45px;
+      color: white;
+  }
+  #one{
+     margin-left: -145px;
+     color: white;
+     font-size: larger;
+  }
+.three{
+    margin-left: -150px;
+    color: white;
+    font-size: larger;
+}
   .righttext{
       margin-left: 900px;
       margin-top: -350px;
@@ -187,11 +205,21 @@ body{
     margin-top: -250px;
     padding-left: 800px;
     }
+
+    .meeting{
+        padding-left: 1200px;
+        margin-top: -45px;
+        color: white;
+    }
   .leftpictwo{
     padding-left: 179px!important;
     padding-top: 40px;
-
-}
+    }
+    .graduation{
+        padding-left: 210px;
+        margin-top: -42px;
+        color: white;
+    }
 .tmspan{
    font-size: x-large;
    display: flex;
@@ -250,6 +278,11 @@ body{
          display: inline-flex;
          padding-top: 05px;
          margin-left: 160px;
+        }
+        .names{
+            margin-top: -50px;
+            margin-left: -30px;
+            color: white;
         }
      .TMINFOEXTRA{
         font-size:x-small;
