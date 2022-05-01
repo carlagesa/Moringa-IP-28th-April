@@ -339,6 +339,14 @@ body{
          overflow: hidden;
          
      }
+     .contact{
+        text-decoration: none;
+        color: #EC4067;
+     }
+     .contact:hover{
+        color: #EC4067;
+        text-decoration: none;
+     }
      .designers{
         padding-left: 463px;
         text-align: center;
