@@ -1,6 +1,7 @@
 body{
     font-family: 'Nunito', sans-serif;
     font-size: medium;
+    overflow:auto;
 }
 /*This is the text logo at the top of the left corner*/
 .spanlogo{
@@ -8,6 +9,7 @@ body{
     padding-left: 30px;
     font-weight: bold;   
     color: #EC4067;
+    margin-top: 100px!important;
     font-size: xx-large;
 }
 .spanlogoblack{
@@ -27,16 +29,19 @@ body{
   /* Style the links inside the navigation bar */
   .topnav a {
     float: right;
+    padding-top: 1px!important;
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    cursor: pointer;
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
     color: #EC4067;
+    cursor: pointer;
   }
 
   .topbutton {
@@ -48,6 +53,9 @@ body{
     border-radius: 5px;
     cursor: pointer;
 
+}
+.aligntopbtn{
+    margin-top: -06px!important;
 }
 
 .topbutton:hover{
@@ -68,8 +76,8 @@ body{
        margin-left: 450px;
        display: block;
        margin-top: -440px;
+       max-width:100%;
        height: 800px;
-    
    }
 
    p{
